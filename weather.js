@@ -70,7 +70,7 @@ function askForCoords() {
 }
 
 
-// 로컬스토리지에 저장된 좌표 데이터를 갖고오는 함수
+// 로컬스토리지에 저장된 좌표 데이터 저장하는 함수
 function saveCoords(coordsObj) {
     localStorage.setItem(coords, JSON.stringify(coordsObj));
 }
